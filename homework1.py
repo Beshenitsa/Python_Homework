@@ -18,8 +18,9 @@
 
 # if sum >= 6 and 0 == sum % 6:
 #     child1 = sum // 6
-#     child3 = (child1 + child1) * 2
-#     print(child1, child1, child3)
+#     child2 = child1
+#     child3 = (child1 + child2) * 2
+#     print(child1, child2, child3)
 # elif sum < 6:
 #     print("Nope. I know they made more than that, try again.")
 # else: 
@@ -55,4 +56,3 @@
 #         input("Yes, you can break it off with just one line.")
 # else:
 #     input("No, you cannot break if off with just one line.")
-#
